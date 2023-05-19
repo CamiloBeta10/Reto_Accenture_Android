@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.co.certificacion.swaglab.runner.ComprarProductoRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="PSOFKA0873" time="0.0">
+  <properties/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[May 18, 2023 1:49:34 PM io.cucumber.core.resource.ClasspathScanner safelyLoadClass
+WARNING: Failed to load class 'com.co.certificacion.swaglab.stepdefinition.ComprarProductoStepDefinition (1)'.
+By default Cucumber scans the entire classpath for step definitions.
+You can restrict this by configuring the glue path.
+
+Examples:
+ - @CucumberOptions(glue = "com.example.application")
+ - @ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "com.example.application") - src/test/resources/junit-platform.properties   cucumber.glue=com.example.application
+ - src/test/resources/cucumber.properties         cucumber.glue=com.example.application
+
+java.lang.NoClassDefFoundError: com/co/certificacion/swaglab/stepdefinition/ComprarProductoStepDefinition (wrong name: com/co/certificacion/swaglab/stepdefinition/ComprarProductoStepDefinition (1))
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:800)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:698)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:621)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:579)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at io.cucumber.core.resource.ClasspathScanner.safelyLoadClass(ClasspathScanner.java:107)
+	at io.cucumber.core.resource.ClasspathScanner.lambda$processClassFiles$5(ClasspathScanner.java:99)
+	at io.cucumber.core.resource.PathScanner$ResourceFileVisitor.visitFile(PathScanner.java:75)
+	at io.cucumber.core.resource.PathScanner$ResourceFileVisitor.visitFile(PathScanner.java:60)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2725)
+	at io.cucumber.core.resource.PathScanner.findResourcesForPath(PathScanner.java:53)
+	at io.cucumber.core.resource.PathScanner.findResourcesForUri(PathScanner.java:31)
+	at io.cucumber.core.resource.ClasspathScanner.findClassesForUri(ClasspathScanner.java:73)
+	at io.cucumber.core.resource.ClasspathScanner.lambda$findClassesForUris$3(ClasspathScanner.java:65)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at io.cucumber.core.resource.ClasspathScanner.findClassesForUris(ClasspathScanner.java:68)
+	at io.cucumber.core.resource.ClasspathScanner.scanForClassesInPackage(ClasspathScanner.java:52)
+	at io.cucumber.core.resource.ClasspathScanner.scanForClassesInPackage(ClasspathScanner.java:115)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at io.cucumber.java.JavaBackend.loadGlue(JavaBackend.java:41)
+	at io.cucumber.core.runner.Runner.<init>(Runner.java:56)
+	at io.cucumber.core.runtime.ThreadLocalRunnerSupplier.createRunner(ThreadLocalRunnerSupplier.java:47)
+	at java.base/java.lang.ThreadLocal$SuppliedThreadLocal.initialValue(ThreadLocal.java:305)
+	at java.base/java.lang.ThreadLocal.setInitialValue(ThreadLocal.java:195)
+	at java.base/java.lang.ThreadLocal.get(ThreadLocal.java:172)
+	at io.cucumber.core.runtime.ThreadLocalRunnerSupplier.get(ThreadLocalRunnerSupplier.java:40)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:35)
+	at io.cucumber.core.runtime.CucumberExecutionContext.getRunner(CucumberExecutionContext.java:134)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runBeforeAllHooks(CucumberExecutionContext.java:86)
+	at io.cucumber.junit.CucumberSerenityRunner$RunCucumber.evaluate(CucumberSerenityRunner.java:284)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/camilo.betancurt/Documents/Sofka/Sura/Automatizacion/Reto_Accenture_Android/src/test/resources/feature/compra_producto.feature
+[Test worker] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/camilo.betancurt/Documents/Sofka/Sura/Automatizacion/Reto_Accenture_Android/src/test/resources/feature/compra_producto.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+[Test worker] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+[Test worker] INFO  - Test Suite Started: El usuario compra un producto
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/camilo.betancurt/Documents/Sofka/Sura/Automatizacion/Reto_Accenture_Android/src/test/resources/feature/compra_producto.feature
+[Test worker] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/camilo.betancurt/Documents/Sofka/Sura/Automatizacion/Reto_Accenture_Android/src/test/resources/feature/compra_producto.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+[Test worker] INFO  - Test Suite Started: El usuario compra un producto
+[pool-2-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\camilo.betancurt\Documents\Sofka\Sura\Automatizacion\Reto_Accenture_Android\src\test\resources\feature\compra_producto.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\camilo.betancurt\Documents\Sofka\Sura\Automatizacion\Reto_Accenture_Android\src\test\resources\feature\compra_producto.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:229)
+	at java.base/java.io.File.toPath(File.java:2329)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:362)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:325)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:145)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementFor(BaseRequirementsService.java:53)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:194)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:188)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:104)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[pool-2-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\camilo.betancurt\Documents\Sofka\Sura\Automatizacion\Reto_Accenture_Android\src\test\resources\feature\compra_producto.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\camilo.betancurt\Documents\Sofka\Sura\Automatizacion\Reto_Accenture_Android\src\test\resources\feature\compra_producto.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:229)
+	at java.base/java.io.File.toPath(File.java:2329)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:362)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:325)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:145)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:85)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:224)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:212)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:188)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:104)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[pool-2-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\camilo.betancurt\Documents\Sofka\Sura\Automatizacion\Reto_Accenture_Android\src\test\resources\feature\compra_producto.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\camilo.betancurt\Documents\Sofka\Sura\Automatizacion\Reto_Accenture_Android\src\test\resources\feature\compra_producto.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:229)
+	at java.base/java.io.File.toPath(File.java:2329)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:362)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:325)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:145)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:85)
+	at net.thucydides.core.tags.BreadcrumbTagFilter.getRequirementBreadcrumbsFrom(BreadcrumbTagFilter.java:51)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:225)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:212)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:188)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:104)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[pool-2-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\camilo.betancurt\Documents\Sofka\Sura\Automatizacion\Reto_Accenture_Android\src\test\resources\feature\compra_producto.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\camilo.betancurt\Documents\Sofka\Sura\Automatizacion\Reto_Accenture_Android\src\test\resources\feature\compra_producto.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:229)
+	at java.base/java.io.File.toPath(File.java:2329)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:362)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:325)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:145)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:85)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:224)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:212)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:188)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateScreenshotReportsFor(HtmlAcceptanceTestReporter.java:252)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:107)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[pool-2-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\camilo.betancurt\Documents\Sofka\Sura\Automatizacion\Reto_Accenture_Android\src\test\resources\feature\compra_producto.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\camilo.betancurt\Documents\Sofka\Sura\Automatizacion\Reto_Accenture_Android\src\test\resources\feature\compra_producto.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:229)
+	at java.base/java.io.File.toPath(File.java:2329)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:362)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:325)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:145)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:85)
+	at net.thucydides.core.tags.BreadcrumbTagFilter.getRequirementBreadcrumbsFrom(BreadcrumbTagFilter.java:51)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:225)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:212)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:188)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateScreenshotReportsFor(HtmlAcceptanceTestReporter.java:252)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:107)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
+?[32m?[1m??[0m Share your Cucumber Report with your team at ?[36m?[1m?[4mhttps://reports.cucumber.io?[0m          ?[32m?[1m??[0m
+?[32m?[1m??[0m Activate publishing with one of the following:                                    ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m Environment variable:                            ?[36mCUCUMBER_PUBLISH_ENABLED?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m JUnit:                                           ?[36m@CucumberOptions?[0m(publish = ?[36mtrue?[0m) ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m More information at ?[36mhttps://cucumber.io/docs/cucumber/environment-variables/?[0m      ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m Disable this message with one of the following:                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m??[0m
+?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
+]]></system-err>
+</testsuite>
