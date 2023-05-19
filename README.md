@@ -6,7 +6,7 @@ Proyecto desarrollado en java (JDK 11) con SerenityBDD, Screenplay, Cucumber, An
 y Appium para automatizacion la app Movil SwagLabs en el sistema operativo Android
 
 
-### Escenarios Automatizados por servicio
+### Escenarios Automatizados 
 * Inisio de sesion 
 * Realizar una compra añadiendo productos al carrito
 
