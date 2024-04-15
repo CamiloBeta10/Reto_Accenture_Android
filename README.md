@@ -7,7 +7,7 @@ y Appium para automatizacion la app Movil SwagLabs en el sistema operativo Andro
 
 
 ### Escenarios Automatizados 
-* Inisio de sesion 
+* Inicio de sesion 
 * Realizar una compra añadiendo productos al carrito
 
 ### Tecnologias Usadas
